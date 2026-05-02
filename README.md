@@ -3,6 +3,7 @@ CPTs and advance techniques for WarsWW development.
 
 ## 2026 May format
 
+```
 Term,         Scope,             Usage on WarsWW.net
 The Brief,    Global (5 Regions),"The daily ""Roundup"" post that summarizes the world."
 A Spotlight,  Single Event,     A standalone daily post/story (like the Diamond Resolution).
@@ -14,4 +15,5 @@ Middle East Theaters, "Israel-Hezbollah, Iran Nuclear, Yemen/Houthis",/middle-ea
 African Conflicts,   "Sudan (RSF vs SAF), DR Congo (M23), Sahel",/african-conflicts/
 Asian Unrest,        "Myanmar (Coup to Civil War), South China Sea",/asian-unrest/
 -----
+```
 
