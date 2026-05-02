@@ -1,7 +1,13 @@
 <?php
-/* Editorial CPT
+/**
+ * You must do docblocks for every method/function
  *
- */
+ * @since 1.1.0
+ *
+ * @param integer $int With descriptions.
+ *
+ * @return The return must be included.
+ */  
 
 namespace WarsWW\Editorial;
 
