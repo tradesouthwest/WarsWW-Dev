@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WarsWW Slug Converter</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.6; background:#554438}
+        .container { max-width: 600px; margin: auto; border: 1px solid #ccc; padding: 20px; border-radius: 8px; background: beige;}
+        input { width: 100%; padding: 10px; margin: 10px 0; box-sizing: border-box; }
+        .result-box { background: #f4f4f4; padding: 15px; border-left: 5px solid #333; margin-top: 20px; }
+        label { font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Slug to Title Converter</h2>
+    <p>Paste your SEO slug below to generate a formatted WordPress title.</p>
+
+    <label for="slugInput">SEO Slug:</label>
+    <input type="text" id="slugInput" placeholder="e.g., editorial-rules-for-warsww" oninput="convertSlug()">
+
+    <div class="result-box">
+        <strong>Formatted Title:</strong>
+        <p id="titleOutput">Waiting for input...</p>
+    </div>
+</div>
+
+<script>
+    function convertSlug() {
+        const slug = document.getElementById('slugInput').value;
+
+        // 1. Replace hyphens and underscores with spaces
+        // 2. Capitalize the first letter of each word
+        const formattedTitle = slug
+            .replace(/[-_]/g, ' ')
+            .replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+
+        document.getElementById('titleOutput').innerText = formattedTitle || "Waiting for input...";
+    }
+</script>
+
+</body>
+</html>
