@@ -1,0 +1,43 @@
+/*
+CTC Separate Stylesheet
+Updated: 2026-05-16 09:56:14
+Theme Name: Blog Over Child
+Theme URI: https://awplife.com/wordpress-themes/blog-over/
+Template: blog-over
+Author: AwordPressLife
+Author URI: http://tradesouthwest.com/
+Description: Blog Over Child is a fast, modern, and highly customizable WordPress theme.
+Tags: blog,news,magazine,custom-background,custom-colors,custom-header,custom-menu,featured-images,footer-widgets,full-width-template,translation-ready,block-styles,block-patterns
+Version: 1.0.0.1778950574
+*/
+/*footr logo */aside#block-17 img{height:50px;width:50px;}.footer-copyright .site-info{display:none;}
+div.wpra-list-template .wpra-item-list > li.wpra-item {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: thin solid #ccc;
+	padding-left: 5px;}
+.wpra-item-list--bullets.wpra-item-list--default {
+  list-style: inside numeric;
+}.header-ainfo.float-right img{max-height:90px;box-shadow:none;background:transparent;}
+#block-25 > blockquote:nth-child(1){display:none;}blockquote::before {content: "";}.wp-block-media-text{border: thin solid #aec;border-radius:3px;
+  padding: 15px 0 5px 0;
+	box-shadow: 1px 1px 0px 0px #aec;}textarea#comment{field-sizing: content;height:100px;resize:both;}.link-underlined{text-decoration: underline; font-weight: normal;}.wars-home-post-query a {color: green;font-weight:500;text-decoration:none;}.site-branding{padding:0;}.home .wrapper.header-image-wrap img{height:240px;}.home .widget.widget_block.widget_media_image figure img{max-height:480px}.home .wp-image-307{max-height: 200px; width: 80%;}
+.pvt-tally {
+    display: inline-block;
+    background: #f4f4f4;
+    color: #333;
+    padding: 5px 12px !important;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: none !important; /* Overrides the inline border if needed */
+    margin-top: 15px;
+    }
+.home .wp-block-post-excerpt__excerpt{display:none;}
+.single pre.wp-block-code code{background-color: #1a202c; color: #e2e8f0; 
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; 
+	padding: 1em;
+  border-radius: 6px;overflow-x: auto;}
+.blog-over-single-content blockquote{background: #eff;color:currentColor;box-shadow: 0px 0px 1px 1px #dfe } .wars-home-post-query ul li{font-size:smaller;}.wars-home-post-query ul li h2 a{color:#028}
