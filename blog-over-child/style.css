@@ -8,7 +8,7 @@ Author: AwordPressLife
 Author URI: http://tradesouthwest.com/
 Description: Blog Over Child is a fast, modern, and highly customizable WordPress theme.
 Tags: blog,news,magazine,custom-background,custom-colors,custom-header,custom-menu,featured-images,footer-widgets,full-width-template,translation-ready,block-styles,block-patterns
-Version: 1.0.0.1778950574
+Version: 1.0.0.1778950575
 */
 /*footr logo */aside#block-17 img{height:50px;width:50px;}.footer-copyright .site-info{display:none;}
 div.wpra-list-template .wpra-item-list > li.wpra-item {
@@ -34,10 +34,15 @@ div.wpra-list-template .wpra-item-list > li.wpra-item {
     margin-top: 15px;
     }
 .home .wp-block-post-excerpt__excerpt{display:none;}
-.single pre.wp-block-code code{background-color: #1a202c; color: #e2e8f0; 
+.single pre.wp-block-preformatted, 
+.single pre.wp-block-code code{
+  background-color: #1a202c; color: #e2e8f0; 
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility; 
 	padding: 1em;
   border-radius: 6px;overflow-x: auto;}
-.blog-over-single-content blockquote{background: #eff;color:currentColor;box-shadow: 0px 0px 1px 1px #dfe } .wars-home-post-query ul li{font-size:smaller;}.wars-home-post-query ul li h2 a{color:#028}
+.blog-over-single-content blockquote{background: #eff;
+  color:currentColor;box-shadow: 0px 0px 1px 1px #dfe } 
+  .wars-home-post-query ul li{font-size:smaller;}
+  .wars-home-post-query ul li h2 a{color:#028}
