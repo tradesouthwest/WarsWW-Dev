@@ -8,9 +8,9 @@ Author: AwordPressLife
 Author URI: http://tradesouthwest.com/
 Description: Blog Over Child is a fast, modern, and highly customizable WordPress theme.
 Tags: blog,news,magazine,custom-background,custom-colors,custom-header,custom-menu,featured-images,footer-widgets,full-width-template,translation-ready,block-styles,block-patterns
-Version: 1.0.12
+Version: 1.0.20
 */
-/*footr logo */aside#block-17 img{height:50px;width:50px;}.footer-copyright .site-info{display:none;}
+/*footer logo */aside#block-17 img{height:50px;width:50px;}.footer-copyright .site-info{display:none;}
 div.wpra-list-template .wpra-item-list > li.wpra-item {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -46,3 +46,15 @@ div.wpra-list-template .wpra-item-list > li.wpra-item {
   color:currentColor;box-shadow: 0px 0px 1px 1px #dfe } 
   .wars-home-post-query ul li{font-size:smaller;}
   .wars-home-post-query ul li h2 a{color:#028}
+.daily-sub-btn{ padding: .67rem; background: #fafafa; border: thin solid #ddd; color:blue;}.single .wp-block-table thead, .single table tr td:first-of-type{font-size:smaller; word-wrap: break-word; ;overflow-wrap: break-word; } .single table tr td:first-of-type{width: 16%;}
+@media screen and ( max-width: 820px ){
+	.single table td{font-size: .78rem;}
+}
+.blog-over-hero-large .blog-over-hero-title{text-shadow: 1px 1px 2px #000}.daily-sub-btn{ padding: .67rem; background: #fafafa; border: thin solid #ddd; color:blue;}.single .wp-block-table thead, .single table tr td:first-of-type{font-size:smaller; word-wrap: break-word; ;overflow-wrap: break-word; } .single table tr td:first-of-type{width: 16%;}
+@media screen and ( max-width: 820px ){
+	.single table td{font-size: .78rem;}
+}
+.blog-over-hero-large .blog-over-hero-title{text-shadow: 1px 1px 2px #000}
+h2.blog-over-hero-title a, h3.blog-over-hero-title a{font-size:1.62em;font-family: serif;line-height: initial;}
+.home .wp-block-post-excerpt__more-text,.wp-block-post-date{display:none;}
+/*.blog-over-hero-item, .blog-over-hero-slider,.blog-over-hero-grid .blog-over-hero-image,.blog-over-hero-slot,.blog-over-featured-item{border:none;border-radius:0;clip-path: none!important;}*/
